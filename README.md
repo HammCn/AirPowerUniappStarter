@@ -8,17 +8,6 @@
 
 > 建议windows开发者使用 ```git bash``` 不要使用windows自带的拉垮的 ```cmd``` ```powershell``` 等。否则接下来的脚本可能出现问题，你只能通过自己手动去操作。
 
-任选一个方式的脚本一键初始化项目
-
-- ssh方式
-```shell
-git clone git@github.com:HammCn/AirPowerUniappStarter.git &&
-cd AirPowerUniappStarter/src && 
-git clone git@github.com:HammCn/AirPower4T.git airpower && cd ../ &&
-yarn
-```
-
-- https方式
 ```shell
 git clone https://github.com/HammCn/AirPowerUniappStarter.git &&
 cd AirPowerUniappStarter/src && 
