@@ -1,5 +1,5 @@
-import '@/airpower/assets/css/airpower.css'
-import '@/airpower/assets/css/weui.css'
+import '@/airpower/assets/css/airpower.scss'
+import '@/airpower/assets/css/weui.scss'
 import '@/static/css/main.scss'
 
 import { createSSRApp } from 'vue'
