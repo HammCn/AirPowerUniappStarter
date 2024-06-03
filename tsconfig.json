@@ -2,6 +2,7 @@
   "extends": "@vue/tsconfig/tsconfig.json",
   "compilerOptions": {
     "importsNotUsedAsValues": "preserve",
+    "ignoreDeprecations": "5.0",
     "preserveValueImports": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
